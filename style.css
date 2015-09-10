@@ -4,6 +4,10 @@ body {
 #main{
     background-color: cornflowerblue;
 }
+h1{
+    type-color: green;
+}
+}
 .footer{
     font-size: 10px;
 }
