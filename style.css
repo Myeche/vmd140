@@ -5,7 +5,7 @@ body {
     background-color: cornflowerblue;
 }
 h1{
-    type-color: green;
+font: Helvetica, green;
 }
 
 .footer{
