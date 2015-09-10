@@ -1,0 +1,12 @@
+body {
+    font-size: 14px;
+}
+#main{
+    background-color: cornflowerblue;
+}
+.footer{
+    font-size: 10px;
+}
+ .highlight {
+    color: #ff0;
+  }
