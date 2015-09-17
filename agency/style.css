@@ -9,8 +9,7 @@
     margin-right: -15px;
     margin-left: -15px;
 }
-.row:before,
- .row:after{
+.row:before, .row:after{
     display: table;
     content: :"";
 }
