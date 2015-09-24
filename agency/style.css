@@ -76,6 +76,7 @@ section{
 .portfolio-item {
     padding-bottom: 50px;
     padding-bottom: 122px;
+    text-align: center;
 }
 .timeline{
     list-style: none;
