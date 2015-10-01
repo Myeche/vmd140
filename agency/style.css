@@ -1,93 +1,166 @@
-.container{
+.container {
     width: 1170px;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
 }
-.row{
+
+.row {
     margin-right: -15px;
     margin-left: -15px;
 }
-.row:before, .row:after{
+
+.row:before,
+.row:after {
     display: table;
-    content:" ";
+    content: " ";
 }
-.row:after{
-    clear:both;
+
+.row:after {
+    clear: both;
 }
-.col-sm-12{
+
+.col-sm-12 {
     width: 100%;
 }
-.col-sm-8{
+
+.col-sm-8 {
     width: 66.66666667%
 }
-.col-sm-6{
+
+.col-sm-6 {
     width: 50%;
 }
-.col-sm-4{
+
+.col-sm-4 {
     width: 33.3333333%;
 }
-.col-sm-3{
+
+.col-sm-3 {
     width: 25%;
 }
-.col-sm-2{
+
+.col-sm-2 {
     width: 16.66666667%;
 }
+
 .col-sm-2,
 .col-sm-3,
 .col-sm-4,
 .col-sm-6,
 .col-sm-8,
-.col-sm-12{
+.col-sm-12 {
     float: left;
     position: relative;
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
 }
-.img-responsive{
+
+.img-responsive {
     max-width: 100%;
     height: auto;
 }
+
 .text-center {
     text-align: center;
 }
+
 .list-inline {
     padding-left: 0;
     list-style: none;
 }
-.list-inline > li{
+
+.list-inline > li {
     display: inline-block;
     padding-right: 5px;
     padding-left: 5px;
 }
-*, *:before, *:after{
+
+*,
+*:before,
+*:after {
     box-sizing: border-box;
 }
-.intro-text{
+
+.intro-text {
     padding-top: 200px;
     padding-bottom: 160px;
 }
-section{
+
+section {
     padding-top: 122px;
     padding-bottom: 122px;
 }
+
 .portfolio-item {
     padding-bottom: 50px;
     padding-bottom: 122px;
     text-align: center;
 }
-.timeline{
+
+.timeline {
     list-style: none;
     padding: 0;
 }
-.team-member{
+
+.team-member {
     margin-bottom: 50px;
 }
-footer{
+
+footer {
     padding-top: 22px;
     padding-bottom: 30px;
 }
-    
 
+
+/*Timeline*/
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.timeline-panel {
+    padding-left: 100px;
+    width: 40%;
+    float: left;
+    text-align: right;
+}
+
+.timeline-image {
+    width: 174px;
+    height: 174px;
+    position: absolute;
+    left: 50%;
+    z-index: 100;
+    background-color: #fed136;
+    border-radius: 100%;
+    border: 9px solid #f1f1f1;
+}
+
+.timeline-inverted > .timeline-panel {
+    padding-right: 100px;
+    float: right;
+    text-align: left;
+}
+
+.timeline:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    content: " ";
+    width: 2px;
+    background-color: #f1f1f1;
+}
+
+.timeline > li:after {
+    clear: both;
+}
+
+.timeline> li:before,
+.timeline > li:after {
+    content: " ";
+    display: table;
+}
