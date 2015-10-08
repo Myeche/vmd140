@@ -141,6 +141,7 @@ footer {
 
 .timeline-inverted > .timeline-panel {
     padding-right: 100px;
+    padding-left: 0px;
     float: right;
     text-align: left;
 }
