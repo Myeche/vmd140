@@ -1,4 +1,4 @@
-.container {
+    .container {
     width: 1170px;
     padding-right: 15px;
     padding-left: 15px;
@@ -199,7 +199,7 @@ footer {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: yellow;
+    background: rgb(221, 173, 12);
     opacity: 0;
 }
 
@@ -209,4 +209,83 @@ footer {
 
 .portfolio-caption {
     text-align: center;
+}
+
+
+/*Color*
+white #ffffff
+grey #f7f7f7
+black #212121
+yellow #fed034
+#ddad0c*/
+
+body {
+    color: #212121
+    background-color: #ffffff;
+}
+
+h2 {
+    color: #212121;
+}
+
+h3 {
+    color: #f7f7f7;
+}
+
+h4 {
+    color: #212121;
+}
+
+a {
+    color: #ffffff;
+}
+
+nav {
+    background-color: #212121;
+}
+
+header {
+    background-color: #767676;
+}
+.logo {
+    color: #fed034;
+}
+.intro-lead-in {
+    color: #ffffff;
+}
+
+intro-heading {
+    color: #ffffff;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #fed034;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 25px 50px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#portfolio,
+#team {
+    background-color: #f7f7f7;
+}
+
+
+#color {
+    background-color: #212121;
+}
+
+#contact{
+    background-color: #212121;
+}
+
+#contact h2{
+    color: #ffffff;
+}
+ 
+footer a{
+    color: #fed034;
 }
