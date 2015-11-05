@@ -2,8 +2,9 @@
             width: 1170px;
             padding-right: 15px;
             padding-left: 15px;
-            margin-right: auto;
+             margin-right: auto;
             margin-left: auto;
+           
         }
         
         .row {
@@ -239,7 +240,11 @@ yellow #fed034
         
         header {
             background-color: #767676;
+            background-image: url(img/header-bg.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
         }
+        
         
         .logo {
             color: #fed034;
@@ -273,6 +278,11 @@ yellow #fed034
             padding: 25px 50px;
             text-align: center;
             border-radius: 5px;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            -ms-transition: all 0.3s;
+            transition: all 0.3s;
+            border: 0 none;
         }
         
         #portfolio,
@@ -325,7 +335,6 @@ yellow #fed034
             font-family: 'Montserrat', sans-serif;
             text-transform: uppercase;
             letter-spacing: 1px;
-            
         }
         
         .section-heading {
@@ -357,6 +366,7 @@ yellow #fed034
         .social-buttons li a {
             display: block;
             background-color: #212121;
+            color: #ffffff;
             height: 40px;
             width: 40px;
             border-radius: 100%;
@@ -379,3 +389,48 @@ yellow #fed034
         .text-primary {
             color: #fed034;
         }
+        /*pseudo selector*/
+        
+        .navbar li a:hover {
+            color: #fed034;
+        }
+        
+        .btn:hover {
+            background-color: rgb(221, 173, 12);
+        }
+        
+        .social-buttons li a:hover {
+            background-color: #fed034;
+        }
+        
+        .quicklinks a:hover {
+            text-decoration: underline;
+        }
+        #contact{
+            background-color: #212121;
+            background-image: url(img/map-image.png);
+            background-position: 500px center;
+            background-repeat:no-repeat;
+        }
+/*form SStyle*/
+.form-group {
+    margin-bottom: 28px;
+  
+}
+.form-control{
+    display: block;
+    width: 100%;
+    padding: 21px;
+    border: 1px solid #f7f7f7;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+textarea.form-control{
+    min-height: 230px;
+    padding: 21px;
+}
+.portfolio-hover .fa-plus{
+    margin-top: 100px;
+}
+       
