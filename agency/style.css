@@ -463,7 +463,7 @@ yellow #fed034
                         .col-sm-6,
                         .col-sm-8,
                         .col-sm-12 {
-                            float: left;
+                        float: left;
                         }
                         .navbar-fixed-top {
                             position: fixed;
@@ -473,16 +473,16 @@ yellow #fed034
                             z-index: 1000;
                         }
                         .menu-link {
-                            display:none;
+                            display: none;
                         }
-                        #menu id{
+                        #menu id {
                             padding-top: 0;
                             max-height: none;
                         }
-                        #menu li{
-                            display:inline-block;
+                        #menu li {
+                            display: inline-block;
                         }
-                        #menu{
+                        #menu {
                             padding: 5px;
                         }
                     }
