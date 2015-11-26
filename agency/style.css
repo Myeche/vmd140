@@ -514,6 +514,11 @@ yellow #fed034
                         .timeline-panel > h4 {
                             font-size: 13px;
                         }
+                        .timeline-panel {
+                          
+                           padding-left: 30px;
+                           width: 0%;
+                        }
                         .timeline:before {
                             left: 50%;
                         }
