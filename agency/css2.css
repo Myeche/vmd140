@@ -1,0 +1,22 @@
+body{
+    font-size:14px;
+    font-family: serif;
+    color:black;
+}
+
+h1{
+    font-family:sans-serif;
+    color:darkred;
+}
+
+.footer{
+    font-size:12px;
+}
+
+#main {
+      	background-color:azure				
+}
+
+.highlight {
+    background-color: #ff0;
+  }
