@@ -78,10 +78,6 @@ section {
     text-align: center;
 }
 
-.timeline {
-    list-style: none;
-    padding: 0;
-}
 
 .team-member {
     margin-bottom: 50px;
@@ -94,10 +90,11 @@ footer {
 
 
 /*Timeline*/
-
-.img-circle {
-    border-radius: 50%;
+.timeline {
+    list-style: none;
+    padding: 0;
 }
+
 
 .timeline-panel {
     padding-left: 100px;
@@ -105,6 +102,10 @@ footer {
     width:100%;
 float:right;
 text-align:left;
+}
+
+.img-circle {
+    border-radius: 50%;
 }
 
 .timeline-image {
@@ -119,9 +120,9 @@ text-align:left;
     border: 9px solid #f1f1f1;
     background-color: #fdd134;
     width:80px;
-height:80px;
-margin-left: 0;
-left:0;
+    height:80px;
+    margin-left: 0;
+    left:0;
 }
 
 .timeline-inverted > .timeline-panel {
@@ -251,7 +252,7 @@ header {
     text-transform: uppercase;
     font-weight: 700;
 }
-
+/* button */
 .btn {
     display: inline-block;
     background-color: #fed034;
@@ -318,6 +319,9 @@ p {
     letter-spacing: 1px;
 }
 
+.navbar li a:hover {
+    color: #fed034;
+}
 .section-heading {
     font-size: 35px;
 }
@@ -370,9 +374,7 @@ p {
     color: #fed034;
 }
 
-.navbar li a:hover {
-    color: #fed034;
-}
+
 
 .btn:hover {
     background-color: #ddad0c;
@@ -400,8 +402,8 @@ header {
     background-attachment: scroll;
 }
 
-#contact .section-heading {}
 
+/* form*/
 .form-group {
     margin-bottom: 28px;
 }
