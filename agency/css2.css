@@ -154,7 +154,7 @@ left:0;
     width: 2px;
     background-color: #f1f1f1;
 }
-
+/* portfolio */
 .portfolio-link {
     position: relative;
     display: block;
@@ -169,7 +169,7 @@ margin: 0 auto;
     opacity: 0;
     background: #ddbb45;
     opacity: 0;
-    color: rgb(254, 209, 54);
+    color: rgb(221, 173, 12);
 }
 
 .portfolio-hover:hover {
@@ -189,13 +189,14 @@ left:45%;
 
 
 /*color
-
 white #ffffff
-black (or almost black) #212121
+grey #f7f7f7
+black #212121
+yellow #fed034
+#ddad0c
 dark gray #767676
-light gray #f7f7f7
-yellow #fed136
-darker yellow  #ddbb45
+yellow #fed034
+darker yellow  #ddad0c
 */
 
 body {
@@ -231,20 +232,20 @@ header {
 }
 
 .logo {
-    color: #fed136;
+    color: #fed034;
     font-family: 'Kaushan Script', cursive;
     font-size: 28px;
 }
 
 .intro-lead-in {
-    color: white;
+    color: #ffffff;
     font-family: 'Droid Serif', serif;
     font-size: 36px;
     font-style: italic;
 }
 
 .intro-heading {
-    color: white;
+    color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     font-size: 56px;
     text-transform: uppercase;
@@ -253,7 +254,7 @@ header {
 
 .btn {
     display: inline-block;
-    background-color: #fed136;
+    background-color: #fed034;
     color: #ffffff;
     text-transform: uppercase;
     padding: 25px 50px;
@@ -284,7 +285,7 @@ header {
 }
 
 footer a {
-    color: #fed136;
+    color: #fed034;
 }
 
 body {
@@ -318,7 +319,7 @@ p {
 }
 
 .section-heading {
-    font-size: 33px;
+    font-size: 35px;
 }
 
 .section-subheading {
@@ -365,19 +366,19 @@ p {
 }
 
 .text-primary {
-    color: #fed136;
+    color: #fed034;
 }
 
 .navbar li a:hover {
-    color: #fed136;
+    color: #fed034;
 }
 
 .btn:hover {
-    background-color: #ddbb45;
+    background-color: #ddad0c;
 }
 
 .social-buttons li a:hover {
-    background-color: #fed136;
+    background-color: #fed034;
 }
 
 .quicklinks a:hover {
@@ -421,7 +422,7 @@ textarea.form-control {
     position: absolute;
     top: 40px;
     right: 30px;
-    color: #fed136;
+    color: #fed034;
     text-transform: uppercase;
 }
 
