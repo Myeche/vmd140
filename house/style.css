@@ -90,7 +90,6 @@ nav {
     text-transform: uppercase;
     letter-spacing: 1px;
     text-decoration: none;
-    font-size: 12px;
     color: #797879;
     font-weight: 7px;
 }
@@ -112,8 +111,78 @@ header {
 .intro-heading {
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
-    font-size: 56px;
+    font-size: 45px;
     text-transform: uppercase;
     font-weight: 700;
     white-space: pre;
+}
+/*Button*/
+/*white*/
+.btn-wh {
+    display: inline-block;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 18px 22px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    transition: 0.3s;
+    border: 1px solid #fff;
+}
+    
+    /*orange*/
+.btn-or {
+    display: inline-block;
+    color: #fe5733;
+    text-transform: uppercase;
+    padding: 25px 22px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    transition: 0.3s;
+    border: 1px solid #fe5733;
+}
+
+/*black*/
+.btn-bl {
+    display: inline-block;
+    color: #282828;
+    text-transform: uppercase;
+    padding: 18px 24px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    transition: 0.3s;
+    border: 1px solid #282828;
+}
+/*Title*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+h2 {
+   border-bottom: 2px solid #fe5733;
+    
 }
