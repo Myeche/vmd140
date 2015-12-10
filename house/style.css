@@ -147,6 +147,7 @@ header {
     background-image: url('images/image1.jpg');
     background-position: center center;
     background-repeat: no-repeat;
+    padding-bottom: 35px;
 }
 
 .intro-text {
@@ -156,7 +157,7 @@ header {
 .intro-heading {
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
-    font-size: 45px;
+    font-size: 55px;
     text-transform: uppercase;
     font-weight: 700;
     line-height: 50%;
@@ -183,6 +184,7 @@ header {
     -ms-transition: 0.3s;
     transition: 0.3s;
     border: 1px solid #fff;
+    margin-top: 65px;
 }
 
 
@@ -238,24 +240,37 @@ h6 {
     text-transform: uppercase;
 }
 
-h2 {
-    border-bottom: 2px solid #fe5733;
-}
-
 
 /*section*/
 
 section {
-    padding-top: 95px;
-    padding-bottom: 70px;
+    padding-top: 45px;
+    padding-bottom: 35px;
 }
 
 .section-heading {
-    font-size: 25px;
+    font-size: 35px;
+}
+
+.underline {
+    background-color: #fe5733;
+    width: 7%;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+    margin-bottom: 45px;
 }
 
 
 /*text hover*/
+
+.pic-link {
+    position: relative;
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+}
 
 .img-hover {
     position: absolute;
@@ -284,7 +299,7 @@ section {
     height: auto;
 }
 
-.about-img{
+.about-img {
     padding: 10px;
 }
 
@@ -302,24 +317,45 @@ section {
 
 /*footer*/
 
-footer, footer a {
+footer,
+footer a {
     background-color: #282828;
     color: #797879;
 }
 
+
 /*text*/
+
 body {
     color: #282828;
     background-color: #ffffff;
     margin: 0;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    font-size: 13px;
+    font-size: 15px;
+    line-height: 20px;
 }
+.p-about{
+    max-width: 65px;
+}
+
 /*Icon color*/
-.icon-services{
-    color:#c4c1bf;
+
+.icon-services {
+    color: #c4c1bf;
 }
-.icon-blog{
+
+.icon-blog {
     color: #fe5733;
+}
+/*about*/
+#about,
+
+{
+    max-width: 1000px;
+}
+#service
+
+{
+    max-width: 1250px;
 }
