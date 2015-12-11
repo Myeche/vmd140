@@ -348,8 +348,8 @@ body {
 .icon-blog {
     color: #fe5733;
 }
-/*about*/
-#about,
+/*container*/
+#about
 
 {
     max-width: 1000px;
@@ -358,4 +358,7 @@ body {
 
 {
     max-width: 1250px;
+}
+#picture{
+    padding: 0px 45px 20px 45px;
 }
