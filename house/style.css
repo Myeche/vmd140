@@ -184,10 +184,11 @@ header {
 .intro-heading {
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
-    font-size: 55px;
+    font-size:30px;
     text-transform: uppercase;
     font-weight: 700;
-    line-height: 50%;
+    line-height: 80%;
+    margin:auto;
 }
 
 
@@ -317,6 +318,8 @@ section {
     opacity: 0;
     color: #fff;
     padding-top: 70px;
+    font-size:25px;
+    line-height: 110%;
 }
 
 .img-hover:hover {
@@ -362,7 +365,7 @@ footer a {
 .icon-footer {
     font-size: 20px;
     letter-spacing: 5px;
-    font-color: #b9c0c4;
+    color: #b9c0c4;
     padding-top: 15px;
 }
 
@@ -433,10 +436,11 @@ ul a {
 
 
 /* Small devices (tablets, 768px and up) */
-  /*
+ 
 
 @media (min-width: 768px) {
-    .container {
+    
+  /*   .container {
         width: 750px;
     }
     .col-sm-12 {
@@ -465,12 +469,38 @@ ul a {
     .col-sm-12 {
         float: left;
     }
-    nav {
-    background-color: #282828;
-    height: 100px;
-}
+  
 
-.navbar-fixed-top {
+
+  
+    /* Medium devices (desktops, 992px and up) */
+     
+    @media (min-width: 992px) {
+     /*    .container {
+            width: 970px;
+        }
+        .timeline-image {
+            width: 150px;
+            height: 150px;
+            margin-left: -75px;
+        }
+        .timeline-panel {
+            padding-left: 20px;
+        }
+        .timeline-inverted > .timeline-panel {
+            float: left;
+            text-align: left;
+        }
+        .timeline-image > h4 {
+            font-size: 18px;
+        }
+        .team-member {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+        */
+    .navbar-fixed-top {
     position: fixed;
     top: 0;
     right: 0;
@@ -515,41 +545,28 @@ ul a {
     #menu a {
         padding: 5px;
     }
-  
-    /* Medium devices (desktops, 992px and up) */
-     /* 
-    @media (min-width: 992px) {
-        .container {
-            width: 970px;
-        }
-        .timeline-image {
-            width: 150px;
-            height: 150px;
-            margin-left: -75px;
-        }
-        .timeline-panel {
-            padding-left: 20px;
-        }
-        .timeline-inverted > .timeline-panel {
-            float: left;
-            text-align: left;
-        }
-        .timeline-image > h4 {
-            font-size: 18px;
-        }
-        .team-member {
-            margin-left: auto;
-            margin-right: auto;
-        }
-    }
-    */
+        
+        .intro-text {
+    padding: 200px 115px 225px 115px;
+}
+
+.intro-heading {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 95%;
+    margin: 10px;
+}
+    
     /* Large devices (large desktops, 1200px and up) */
-      /* 
+  /*     
     @media (min-width: 1200px) {
         .container {
-            width: 1170px;
+            width: 1500px;
         }
         .timeline-panel {
             padding-left: 100px;
         }
-    */
+    
