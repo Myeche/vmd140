@@ -433,6 +433,7 @@ ul a {
 
 
 /* Small devices (tablets, 768px and up) */
+  /*
 
 @media (min-width: 768px) {
     .container {
@@ -514,7 +515,9 @@ ul a {
     #menu a {
         padding: 5px;
     }
+  
     /* Medium devices (desktops, 992px and up) */
+     /* 
     @media (min-width: 992px) {
         .container {
             width: 970px;
@@ -539,7 +542,9 @@ ul a {
             margin-right: auto;
         }
     }
+    */
     /* Large devices (large desktops, 1200px and up) */
+      /* 
     @media (min-width: 1200px) {
         .container {
             width: 1170px;
@@ -547,3 +552,4 @@ ul a {
         .timeline-panel {
             padding-left: 100px;
         }
+    */
