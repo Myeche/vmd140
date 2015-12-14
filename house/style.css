@@ -1,4 +1,4 @@
-.container {
+        .container {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
@@ -70,7 +70,7 @@ li {
 
 a {
     text-decoration: none;
-    color: #282828;
+    color: #797879;
 }
 
 a:hover {
@@ -138,6 +138,33 @@ nav {
 #menu {
     text-align: right;
     margin: 45px;
+    transition: all 0.3s ease-out;
+    overflow: hidden;
+    max-height: 0;
+}
+
+#menu a {
+    transition: 0.3s ease-in-out;
+    display: block;
+    padding: 15px;
+    text-align: center;
+
+}
+
+#menu.active {
+    max-height: 25em;
+}
+
+#menu li {
+    display: block;
+}
+
+.menu-link {
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    color: #fe5733;
+    text-transform: uppercase;
 }
 
 
@@ -194,7 +221,7 @@ header {
     display: inline-block;
     color: #fe5733;
     text-transform: uppercase;
-    padding: 25px 22px;
+    padding: 10px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 10px;
@@ -205,6 +232,13 @@ header {
     -ms-transition: 0.3s;
     transition: 0.3s;
     border: 1px solid #fe5733;
+    margin-top: 45px;
+    letter-spacing: 2px;
+}
+
+#btn-or {
+    background-color: #282828;
+    height: 130px;
 }
 
 
@@ -214,7 +248,7 @@ header {
     display: inline-block;
     color: #282828;
     text-transform: uppercase;
-    padding: 18px 24px;
+    padding: 10px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 10px;
@@ -225,6 +259,8 @@ header {
     -ms-transition: 0.3s;
     transition: 0.3s;
     border: 1px solid #282828;
+    letter-spacing: 2px;
+    margin: 82px;
 }
 
 
@@ -323,6 +359,19 @@ footer a {
     color: #797879;
 }
 
+.icon-footer {
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-color: #b9c0c4;
+    padding-top: 15px;
+}
+
+.footer-text {
+    padding: 21px;
+    padding-left: 130px;
+    font-weight: 700;
+}
+
 
 /*text*/
 
@@ -335,9 +384,23 @@ body {
     font-size: 15px;
     line-height: 20px;
 }
-.p-about{
+
+.p-about {
     max-width: 65px;
 }
+
+.description {
+    padding: 15px;
+}
+
+ul a {
+    color: #797879;
+    font-size,
+    8px;
+    font-size,
+    8px;
+}
+
 
 /*Icon color*/
 
@@ -348,17 +411,139 @@ body {
 .icon-blog {
     color: #fe5733;
 }
-/*container*/
-#about
 
-{
+
+/*container*/
+
+#about {
     max-width: 1000px;
 }
-#service
 
-{
+#service {
     max-width: 1250px;
 }
-#picture{
+
+#picture {
     padding: 0px 45px 20px 45px;
 }
+
+#service-text {
+    margin-top: 85px;
+}
+
+
+/* Small devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+    .col-sm-12 {
+        width: 100%;
+    }
+    .col-sm-8 {
+        width: 66.66666667%;
+    }
+    .col-sm-6 {
+        width: 50%;
+    }
+    .col-sm-4 {
+        width: 33.33333333%;
+    }
+    .col-sm-3 {
+        width: 5%;
+    }
+    .col-sm-2 {
+        width: 16.66666667%;
+    }
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-6,
+    .col-sm-8,
+    .col-sm-12 {
+        float: left;
+    }
+    nav {
+    background-color: #282828;
+    height: 100px;
+}
+
+.navbar-fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar li a {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #797879;
+    font-weight: 7px;
+}
+
+.navbar li a:hover {
+    color: #fe5733;
+}
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+    .menu-link {
+        display: none;
+    }
+    #menu {
+        padding-top: 0;
+        max-height: none;
+        float: right;
+    }
+    #menu li {
+        display: inline-block;
+    }
+    #menu a {
+        padding: 5px;
+    }
+    /* Medium devices (desktops, 992px and up) */
+    @media (min-width: 992px) {
+        .container {
+            width: 970px;
+        }
+        .timeline-image {
+            width: 150px;
+            height: 150px;
+            margin-left: -75px;
+        }
+        .timeline-panel {
+            padding-left: 20px;
+        }
+        .timeline-inverted > .timeline-panel {
+            float: left;
+            text-align: left;
+        }
+        .timeline-image > h4 {
+            font-size: 18px;
+        }
+        .team-member {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    /* Large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+        .container {
+            width: 1170px;
+        }
+        .timeline-panel {
+            padding-left: 100px;
+        }
