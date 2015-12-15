@@ -51,13 +51,6 @@
     width: 50%;
 }
 
-.col-sm-4 {
-    width: 33.33333333%;
-}
-
-.col-sm-3 {
-    width: 25%;
-}
 
 .col-sm-2 {
     width: 16.66666667%;
@@ -440,7 +433,7 @@ ul a {
 
 @media (min-width: 768px) {
     
-  /*   .container {
+    .container {
         width: 750px;
     }
     .col-sm-12 {
@@ -456,7 +449,7 @@ ul a {
         width: 33.33333333%;
     }
     .col-sm-3 {
-        width: 5%;
+        width: 25%;
     }
     .col-sm-2 {
         width: 16.66666667%;
@@ -476,7 +469,7 @@ ul a {
     /* Medium devices (desktops, 992px and up) */
      
     @media (min-width: 992px) {
-     /*    .container {
+         .container {
             width: 970px;
         }
         .timeline-image {
@@ -561,10 +554,10 @@ ul a {
 }
     
     /* Large devices (large desktops, 1200px and up) */
-  /*     
+      
     @media (min-width: 1200px) {
         .container {
-            width: 1500px;
+            width: 100%;
         }
         .timeline-panel {
             padding-left: 100px;
