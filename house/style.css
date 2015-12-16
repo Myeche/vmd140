@@ -125,7 +125,6 @@ dark grey: #282828
         
         #menu {
             text-align: right;
-            margin: 45px;
             transition: all 0.3s ease-out;
             overflow: hidden;
             max-height: 0;
@@ -422,31 +421,7 @@ dark grey: #282828
             .col-sm-12 {
                 float: left;
             }
-            /* Medium devices (desktops, 992px and up) */
-            @media (min-width: 992px) {
-                .container {
-                    width: 970px;
-                }
-                .timeline-image {
-                    width: 150px;
-                    height: 150px;
-                    margin-left: -75px;
-                }
-                .timeline-panel {
-                    padding-left: 20px;
-                }
-                .timeline-inverted > .timeline-panel {
-                    float: left;
-                    text-align: left;
-                }
-                .timeline-image > h4 {
-                    font-size: 18px;
-                }
-                .team-member {
-                    margin-left: auto;
-                    margin-right: auto;
-                }
-                */ .navbar-fixed-top {
+                 .navbar-fixed-top {
                     position: fixed;
                     top: 0;
                     right: 0;
@@ -477,7 +452,7 @@ dark grey: #282828
                     display: none;
                 }
                 #menu {
-                    padding-top: 0;
+                    padding-top: 35px;
                     max-height: none;
                     float: right;
                 }
@@ -499,6 +474,13 @@ dark grey: #282828
                     line-height: 95%;
                     margin: 10px;
                 }
+            
+            /* Medium devices (desktops, 992px and up) */
+            @media (min-width: 992px) {
+                .container {
+                    width: 970px;
+                }
+            
                 /* Large devices (large desktops, 1200px and up) */
                 @media (min-width: 1200px) {
                     .container {
