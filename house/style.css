@@ -409,9 +409,7 @@ ul a {
 /* Small devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
-    .container {
-        width: 750px;
-    }
+    
     .col-sm-12 {
         width: 100%;
     }
